@@ -11,8 +11,8 @@ export default function Home() {
       </div>
       <div className="absolute flex justify-center items-center w-2xs gap-4">
         <h1 className="text-6xl font-bold text-white mb-4 text-center">Welcome to Ricolt</h1>
-        <Button className="w-25 h-10 bg-blue-700"><Link href="/sign-up">Sign Up</Link></Button>
-        <Button className="w-25 h-10 bg-blue-700"><Link href="/sign-in">Sign In</Link></Button>
+          <Link href="/sign-up"><Button className="cursor-pointer w-25 h-10 bg-gray-800 border-2 border-white">Sign Up</Button></Link>
+          <Link href="/sign-in"><Button className="cursor-pointer w-25 h-10 bg-gray-800 border-2 border-white">Sign In</Button></Link>
       </div>
     </div>
   );

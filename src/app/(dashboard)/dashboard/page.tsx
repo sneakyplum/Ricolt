@@ -37,9 +37,9 @@ const Dashboard = async () => {
 
           <div className="h-full w-full flex">
             <div className=" flex w-full h-full justify-start items-center gap-8 pl-10">
-              <Button className="cursor-pointer"><Link href="/invoice">Invoices</Link></Button>
-              <Button className="cursor-pointer"><Link href="/dashboard">Dashboard</Link></Button>
-              <Button className="cursor-pointer"><Link href="/client">Clients</Link></Button>
+              <Link href="/invoice"><Button className="cursor-pointer">Invoices</Button></Link>
+              <Link href="/dashboard"><Button className="cursor-pointer">Dashboard</Button></Link>
+              <Link href="/client"><Button className="cursor-pointer">Clients</Button></Link>
             </div>
             <div className="justify-end items-center flex pr-10 h-full">
               <SignOutButton />
