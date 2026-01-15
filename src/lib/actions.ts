@@ -1,7 +1,7 @@
 'use server'
 
 import { prisma } from '@/lib/prisma'
-import { headers } from 'next/dist/server/request/headers'
+import { headers } from 'next/headers'
 import { auth } from './auth'
 
 export async function createClient(formData: FormData) {
