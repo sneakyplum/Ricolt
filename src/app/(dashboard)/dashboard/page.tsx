@@ -9,6 +9,8 @@ import SignOutButton from "@/components/SignOutButton";
 import ClientTable from "@/components/InventoryTable";
 import { getClientById } from "@/app/actions/client-table.action";
 
+export const dynamic = "force-dynamic";
+
 const Dashboard = async () => {
 
 
