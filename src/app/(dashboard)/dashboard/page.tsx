@@ -8,7 +8,7 @@ import Link from "next/link";
 
 import ClientTable from "@/components/InventoryTable";
 import { getClientById } from "@/app/actions/client-table.action";
-import SignUserOutButton from "@/app/(auth)/sign-out/page";
+import SignOutButton from "@/components/SignOutButton";
 
 export const dynamic = "force-dynamic";
 
@@ -28,7 +28,7 @@ const Dashboard = async () => {
                 <Link href="/dashboard"><Button className="cursor-pointer">Dashboard</Button></Link>
               </div>
               <div className="justify-end items-center flex pr-10 h-full">
-                <SignUserOutButton />
+                <SignOutButton />
               </div>
             </div>
 
