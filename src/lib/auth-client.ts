@@ -5,7 +5,7 @@ export const authClient = createAuthClient({
     plugins: [ 
       usernameClient() 
     ],
-    baseURL: process.env.NEXT_PUBLIC_AUTH_API_URL || "http://localhost:3000"
+    baseURL: process.env.NEXT_PUBLIC_AUTH_API_URL || "https://ricolt.vercel.app"
 })
 
 export const { signIn, signUp, useSession } = createAuthClient()
